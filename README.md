@@ -23,8 +23,12 @@ The project is structured as follows:
   - `employeePanel/`: Employee panel page.
   - `adminPanel/`: Admin panel page.
   - `unauthorized`: Unauthorized access
+  - `orders/`: Order-related routes
   - `thank-you/`: Thank you page after placing an order.
   - `not-found.js`: Custom 404 page.
+  - `menu`: All positions form the shop
+  - `login`: Handle login
+  - `register`: Handle register
 - `components/`: Reusable React components.
 - `lib/`: Contains utility libraries.
   - `prisma.js`: Prisma client setup.
@@ -87,19 +91,17 @@ You can use the following test users to log in and explore the application:
 
 - Node.js (v18 or higher)
 - npm (v9 or higher)
-- PostgreSQL (or any other database supported by Prisma)
+- MariaDB (or any other database supported by Prisma)
 
 ### Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/order-management-tool.git
-   cd order-management-tool
+   ```git clone https://github.com/AdamW03/order-management-tool.git
+   cd order-management-tool```
     Install dependencies:
-    bash
-    Copy
-
-    npm install
+   
+    ```npm install
 
     Set up the database:
 
@@ -107,13 +109,11 @@ You can use the following test users to log in and explore the application:
         env
         Copy
 
-        DATABASE_URL="postgresql://user:password@localhost:5432/order_management"
+        ```DATABASE_URL="mysql://user:password@localhost:5432/order_management"```
 
         Run Prisma migrations:
-        bash
-        Copy
 
-        npx prisma migrate dev --name init
+        ```npx prisma migrate dev --name init```
 
     Start the development server:
     bash
