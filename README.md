@@ -96,30 +96,26 @@ You can use the following test users to log in and explore the application:
 ### Installation
 
 1. Clone the repository:
-   ```bash
-   ```git clone https://github.com/AdamW03/order-management-tool.git
+   
+   ```bash git clone https://github.com/AdamW03/orderManagementTool```
    cd order-management-tool```
     Install dependencies:
    
-    ```npm install
+    ```bash npm install```
 
     Set up the database:
 
         Create a .env file in the root directory and add your database connection string:
-        env
-        Copy
 
-        ```DATABASE_URL="mysql://user:password@localhost:5432/order_management"```
+        ```env. DATABASE_URL="mysql://user:password@localhost:5432/order_management"```
 
         Run Prisma migrations:
 
         ```npx prisma migrate dev --name init```
 
     Start the development server:
-    bash
-    Copy
 
-    npm run dev
+    ```npm run dev```
 
     Open your browser and navigate to http://localhost:3000.
 
