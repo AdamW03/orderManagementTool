@@ -97,11 +97,11 @@ You can use the following test users to log in and explore the application:
 
 1. Clone the repository:
    
-   ```bash git clone https://github.com/AdamW03/orderManagementTool```
+   ```git clone https://github.com/AdamW03/orderManagementTool
    cd order-management-tool```
     Install dependencies:
    
-    ```bash npm install```
+    ``` npm install```
 
     Set up the database:
 
