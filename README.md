@@ -15,17 +15,16 @@ The project is structured as follows:
     - `auth/`: Authentication routes.
     - `orders/`: Order-related routes.
     - `users/`: User-related routes.
-  - `components/`: Reusable React components.
+
   - `contexts/`: Context providers for global state management.
   - `employeePanel/`: Employee panel page.
   - `adminPanel/`: Admin panel page.
   - `thank-you/`: Thank you page after placing an order.
   - `not-found.js`: Custom 404 page.
+- `components/`: Reusable React components.
 - `lib/`: Contains utility libraries.
   - `prisma.js`: Prisma client setup.
 - `public/`: Public assets.
-- `styles/`: Global styles.
-- `pages/`: Next.js pages.
 
 ---
 
