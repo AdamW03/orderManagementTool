@@ -4,6 +4,10 @@
 
 The Order Management Tool is a web application designed to manage orders for a restaurant. It allows users to place orders, view their order history, and download invoices. Employees can manage orders, and administrators can manage users and view all orders.
 
+# Hosted website preview
+
+`https://megumiramenrestaurant.vercel.app/`
+
 ---
 
 ## Project Structure
