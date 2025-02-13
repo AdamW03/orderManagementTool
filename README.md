@@ -154,7 +154,7 @@ You can use the following test users to log in and explore the application:
 
     DELETE /api/users/:id: Delete a user (for admins).
 
-###Environment Variables The following environment variables are required:
+### Environment Variables The following environment variables are required:
 
     DATABASE_URL: The connection string for your database.
 
