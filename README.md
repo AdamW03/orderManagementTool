@@ -155,27 +155,3 @@ You can use the following test users to log in and explore the application:
     NEXTAUTH_SECRET: A secret key for Next-Auth (e.g., generate using openssl rand -base64 32).
 
     NEXTAUTH_URL: The base URL of your application (e.g., http://localhost:3000).
-
-
-License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-Acknowledgments
-
-    Next.js Documentation
-
-    Prisma Documentation
-
-    Tailwind CSS Documentation
-
-    React Toastify Documentation
-
-Contact
-
-For any questions or feedback, please contact:
-
-    Your Name
-
-    Email: your.email@example.com
-
-    GitHub: your-github-username
