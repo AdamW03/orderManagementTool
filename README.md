@@ -13,12 +13,16 @@ The project is structured as follows:
 - `app/`: Contains the main application code.
   - `api/`: Contains API route handlers.
     - `auth/`: Authentication routes.
-    - `orders/`: Order-related routes.
-    - `users/`: User-related routes.
-
+      - `register`:
+      - `orders/`: Order-related routes
+      - `users/`: User-related routes.
+      - `menu`: All positions form the shop
+  - `cart`: Cart for product storage
+  - `checkout`: Transaction finalization
   - `contexts/`: Context providers for global state management.
   - `employeePanel/`: Employee panel page.
   - `adminPanel/`: Admin panel page.
+  - `unauthorized`: Unauthorized access
   - `thank-you/`: Thank you page after placing an order.
   - `not-found.js`: Custom 404 page.
 - `components/`: Reusable React components.
